@@ -1,0 +1,322 @@
+@import url(<link href="https://fonts.googleapis.com/css?family=Poppins:400,500i,600i,800i" rel="stylesheet">)
+/*---------- generic ------------*/
+
+body {
+    background-color: #ffffff;
+
+}
+
+/*-----------------navbar-----------*/
+
+#nav {
+    margin: 0;
+    margin-top: -15px;
+}
+
+.nav-font {
+    color: #000000;
+
+    padding-top: -10px;
+    font-size: 40px;
+}
+
+.nav-font:hover {
+    font-family: 'Special Elite', cursive;
+    color: #676767;
+}
+
+
+#nav li {
+    padding: 0;
+}
+
+
+.menuitem {
+    height: 0;
+    text-align: center;
+    padding: 0;
+}
+
+.menuitem a {
+    width: 100%;
+    text-decoration: none;
+    color: #ffffff;
+    height: 120px;
+
+}
+
+.menuitem a i {
+    padding-top: 22px;
+    display: block;
+    color: #fafafa;
+    font-size: 26px;
+}
+
+.menuitem span {
+    display: block;
+    width: 100%;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+.list-inline {
+    text-align: center;
+}
+
+/*-------------- photos -----------*/
+
+.photo {
+    background: url("../images/forest.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 357px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    margin-top: 30px;
+}
+
+.photo2 {
+    background: url("../images/house.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 357px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    margin-top: 30px;
+}
+
+
+/*------------ fonts ---------------*/
+
+
+h3 {
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: 24px;
+}
+
+
+.ed-text {
+    color: black;
+
+}
+
+.name {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 800;
+    font-style: italic;
+
+}
+
+.nav-font {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.container-up-to {
+    margin-top: -25px;
+    margin-bottom: 80px;
+    text-align: right;
+ 
+}
+
+.pipeline {
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f3f2f2;
+    line-height: 1.3;
+}
+
+
+
+/*------------------------- footer ---------------*/
+
+footer {
+    background-color: #3d3d3d;
+    color: #fafafa;
+    min-height: 40px;
+    margin: 0;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+
+}
+
+
+.social-links {
+    padding-top: 10px;
+    position: relative;
+    left: 230%;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background-color: #6f6f6f;
+    transition: all 0.10s ease-in-out;
+    -moz-transition: all 0.10s ease-in-out;
+    -webkit-transition: all 0.10s ease-in-out;
+    -o-transition: all 0.10s ease-in-out;
+}
+
+.social-links li a i:hover {
+    filter: invert(100%);
+
+}
+
+#footer-details {
+    margin: 10;
+}
+
+
+/*---------art page-------*/
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 30px;
+}
+
+
+
+.content {
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+
+}
+
+/*-----------contact page -------------*/
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+
+
+.center-form {
+    padding-top: 30px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+.btn {
+    background-color: #d3d3d3;
+    margin-top: 10px;
+    margin-bottom: 90px;
+    border: 1px solid #3d3d3d;
+}
+
+.btn:hover {
+    background-color: #909090;
+}
+
+
+
+
+/*------------- media queries--------*/
+
+@media(min-width: 992px) {
+
+
+    .center-form {
+        padding-top: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 50%;
+    }
+}
+
+
+
+@media only screen and (max-width: 991px) {
+
+    .social-links {
+        padding-top: 10px;
+        position: relative;
+        left: 0;
+    }
+
+    .container-bio {
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+        padding-bottom: 80px;
+    }
+
+    .container-collab {
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+        padding-bottom: 30px;
+    }
+
+    .hide-video {
+        display: none;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+
+
+    }
+
+    iframe {
+        width: 100%;
+
+
+    }
+
+    .col-md-6,
+    .col-sm-12 {
+        position: relative;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+        padding-bottom: 10px;
+    }
+
+
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1106px) and (-webkit-min-device-pixel-ratio: 1.5) {
+    .hide-video {
+        display: none;
+    }
+
+    iframe {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        width: 994px;
+        height: 500px;
+
+    }
+}
