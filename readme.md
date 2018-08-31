@@ -8,7 +8,8 @@ The music industry is going through a big resergence of DIY artists and so i did
 
 Eventually i'll add an online shop to the site aswell as various blogs/ new release information and touring information.
 
-My design reference point were lifestyle fashions brands such as; adidas and supreme. I also looked at poet, musicians and rappers such as Rizzle Kickz, Tyler the creator/ odd future, George Ezra, Mac Demarco and Al the Native.
+My design reference point were lifestyle fashions brands such as; adidas and supreme. I also looked at poet, musicians and rappers such as George the poet, Rizzle Kickz, Tyler the creator/ odd future, George Ezra, Mac Demarco and Al the Native.
 
 Ive used bootstrap, HTML5, CSS and google fonts within this project.
 
+I have tested out of different devices with different size requirements.
