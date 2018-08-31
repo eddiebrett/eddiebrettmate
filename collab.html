@@ -26,16 +26,19 @@
 
             <div class="row">
                 <ul id="nav" class="list-inline">
-                    <li class="col-xs-4 col-sm-4 menuitem">
+                    <li class="col-xs-3 col-sm-3 menuitem">
                         <a href="index.html"><span class="nav-font">home</span></a>
                     </li>
-                    <li class="col-xs-4 col-sm-4 menuitem">
+                    <li class="col-xs-3 col-sm-3 menuitem">
                         <a href="art.html"><span class="nav-font">art</span></a>
                     </li>
-
-                    <li class="col-xs-4 col-sm-4 menuitem">
+                    <li class="col-xs-3 col-sm-3 menuitem">
+                        <a href="merch.html"><span class="nav-font">merch</span></a>
+                    </li>
+                    <li class="col-xs-3 col-sm-3 menuitem">
                         <a href="collab.html"><span class="nav-font">collab</span></a>
                     </li>
+
                 </ul>
 
             </div>
@@ -48,17 +51,25 @@
                 <h3 class="text-center container"><span class="edmessage">I'm always gratefully excited to collaborate and share my project with new faces. If you want to get involved please get in touch.</span> </h3>
 
             </div>
-            <div class="center-form">
-                <form>
-                    <input type="text" name="name" class="form-control" id="fullname" placeholder="name" required/>
-                    <input type="text" name="number" class="form-control" id="number" placeholder="number" required/>
-                    <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="email" required/>
-                    <textarea row="5" name="projectsummary" class="form-control" id="projectsummary" placeholder="what do you have in mind?" required></textarea>
-                    <button type="submit" class="btn center-block">Safe</button>
-                </form>
-            </div>
         </div>
     </section>
+
+    <div class="center-form container">
+        <form action="mailto:someone@example.com" method="post" enctype="text/plain" >
+            Name:<br>
+            <input type="text" name="name" size="45"><br> e-mail:
+            <br>
+            <input type="text" name="mail" size="45"><br> mobile-number:
+            <br>
+            <input type="text" name="mail" size="45"><br> what's up?:<br>
+            <textarea type="text" name="comment" rows="5" cols="45"></textarea>
+            <br>
+            <input class="btn" type="submit" value="send it">
+            <input class="btn" type="reset" value="reset it">
+        </form>
+
+    </div>
+
 
     <footer class="container-fluid">
         <div id="footer-details" class="row">

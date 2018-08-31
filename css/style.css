@@ -80,7 +80,7 @@ body {
 }
 
 .photo2 {
-    background: url("../images/house.jpg");
+    background: url("../images/drinking-tea.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -91,6 +91,17 @@ body {
     margin-top: 30px;
 }
 
+.photo3 {
+    background: url("../images/merch.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 357px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    margin-top: 30px;
+}
 
 /*------------ fonts ---------------*/
 
@@ -140,13 +151,14 @@ h3 {
     background-color: #ffffff;
     line-height: 1.8;
     text-align: right;
+    margin-bottom: 10px;
 
 }
 
 /*------------------------- footer ---------------*/
 
 footer {
-    background-color: #3d3d3d;
+    background-color: #ffc39c;
     color: #fafafa;
     min-height: 40px;
     margin: 0;
@@ -161,7 +173,7 @@ footer {
 .social-links {
     padding-top: 10px;
     position: relative;
-   
+
 }
 
 .social-links li a i {
@@ -197,7 +209,7 @@ footer {
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
 }
 
 
@@ -218,19 +230,20 @@ img {
 
 /*-----------contact page -------------*/
 
-.center-form {
-    padding-top: 10px;
-    margin: 0 auto;
-    max-width: 70%;
+form{
+    padding-bottom: 0;
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-family: 'Poppins', sans-serif;
+    
 }
 
-
-
 .center-form {
-    padding-top: 30px;
-    margin: 0 auto;
-    max-width: 70%;
+    padding-bottom: 60px;
+    text-align: center;
+
 }
+
 
 .btn {
     background-color: #d3d3d3;
@@ -246,9 +259,16 @@ img {
 
 .text-center {
     text-align: justify;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
 }
 
+/*------------- merch page -----------------*/
 
+.merch-text {
+    margin-bottom: 80px;
+}
 
 /*------------- media queries--------*/
 
@@ -262,8 +282,8 @@ img {
         max-width: 50%;
 
     }
-    
-    .social-links{
+
+    .social-links {
         text-align: right;
         margin-right: 30px;
     }
@@ -274,13 +294,14 @@ img {
 
     .social-links {
         padding-top: 10px;
-        
-       
+
+
     }
 
     ul {
-    margin-top: 0;
-    margin-bottom: 0;}
+        margin-top: 0;
+        margin-bottom: 0;
+    }
 
     .container-bio {
         padding-right: 15px;
@@ -295,7 +316,7 @@ img {
         padding-left: 15px;
         margin-right: auto;
         margin-left: auto;
-        padding-bottom: 30px;
+        padding-bottom: 10px;
     }
 
     .hide-video {
@@ -317,12 +338,13 @@ img {
 
 
     .col-md-6,
-    .col-sm-12, .artwork {
+    .col-sm-12,
+    .artwork {
         position: relative;
         min-height: 1px;
         padding-right: 15px;
         padding-left: 15px;
-        padding-bottom:10px;
+        padding-bottom: 10px;
     }
 
 
