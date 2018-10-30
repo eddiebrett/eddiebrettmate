@@ -1,34 +1,54 @@
 # mate Website
- This website is for the spoken-word artist/ songwriter eddie brett's project called 'mate' (He doesn't use capital letters in his names.) Its a one-stop-shop for anyone wanting information on him and what he is up to or how to get in touch if they so wish.
+
+We are creating a website for the London street poet Eddie Brett and his latest project entitled 'mate'. The site wants to be simple, clean, easy to navigate and appealing to a 17-28 demographic. This is a new project so although information is sparse at the moment the site will grow and expand as the project does incorparating new information and material as it becomes available. He wants visitors to know who he is, what he has done, what he is doing and how to get in touch. The website should appear professional without being overly formal. It needs to feel inviting, unique and slightly quirky to compliment Eddie’s personallity and work.
  
 ## UX
 
-Visiting this website the users wants to know what mate is, whos behind it, what its about and how to get involved.
-- I want it to be clean, clear, quick, easy and stylistically project mates brand identity.
+Visiting this website the users should quickly be made aware of what mate is, whos behind it, what its about and how to get involved.
+I want it to be clean, clear, quick, easy and stylistically project mates brand identity; quirky, individual, positive, balanced, intelligent, inclusive, fun.
 //////////include wireframes here.///////
+ inverted negative photograph effect on the social hover icons,  Hopefully these little quirks give personallity to the site and give it a unique feel cosidering how simplistic and uniformed it is. I wanted the music page to splatter across the page like a sporadic collage, i have achieved this to some degree however at the moment it looks fairly regimented and i think i'll spend some more time on this in the future to create a bespoke layout.
 
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
- In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
- This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
- ## Features
- In this section, you should go over the different parts of your project, and describe each in a sentence or so.
- 
+### Consistant features
+I want the website to feel instantly familiarly, calm and easy to navigate and so in order to door this i think used many consistant features throughout the page that tie-in with 'mates' brand identity:
+From looking at Eddie’s social media activity and artwork i can see that he likes pastel colours, ‘poppin’s’ font and using lowercase text and so i was ensure to include these in the site:
+        - pastel blue background throughout
+        - navigation bar same place/front throughout- when hovered font changes to type-write giving the user a pleasurable expect and a nod to a punk font whilst remaining clean and understandable.
+        - footer is the same throughout othering the visitors easy access to his social platforms. When hovered the colors are inverted like an x-ray scanner again another off the wall suitle feature to strike to user. 
+        - I have given any text used a white background border to emulate that of newspaper cuttings to fit the style of early punk art.
+        - The 'mate' logo proudly stays in the top left corner to over the user a clear and comforting understanding of where they are and what this is all about.
 ### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
- For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
- In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+The home page is the first page that visitor will see and so i have place a recognisable picture that will be seen on within his first release artwork. I have tried to make the text included thorough and informative whilst remaining entertaining and necessary. I cautious to not waffle on, repeat anything and become boring. I have given text white borders to look like labelling and i've put text both to the left and right to give the user a sense of mystery from the norm. Anyone wanting to know who mate is will find out here.
+
+I wanted the music page to feel like a collage... A varied mixture of the different things that Eddie has worked on- This page can easily continue to grow and adapt as more work becomes available. Users wanting to see material are presented with videos and links to music on spotify.
+
+The merch page is more-or-less a blank page at the moment- it exists to let people know that there will be merchandise avaiable at some point soon so keep checking. 
+
+The collab page is very matter of fact. Not busy with infomation just a very clear box and oportunity for users to connect with the project if they want. Users wanting to contact mate can do so here.
+
  ### Features Left to Implement
-- Another feature idea
+ As 'mate' / Eddie's body of work grows we will design a more bespoke template for displaying the work on the 'art' page and creat a more interesting way where things overlap each other and display when hovered- a virtual handmade collage however this is quite complex and not necessary at the moment.
+ 
+ Once merchandise is available and there is enough interest from fans to buy we will include an eCommerce section to our merch page using shopify. We will show pictures of the items and include link to complete the transaction.
+ 
+ Once the project is in full swing and mate is touring we will create a new menu tab 'touring' and include a gig type poster designed in photoshop to relay all of the gig dates and upcoming shows.
+
+
  ## Technologies Used
- In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
- - [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
+I've used the bootstrap framework https://getbootstrap.com/ because of its ease of use and clear layouts.
+I have used google fonts https://fonts.google.com/ to give my site some interesting asthetically pleasing fonts that tie in well with the brand.
+I have embedded youtube iFrames in my site because they are a fantastic video player known to the user.
+I have made my site with HTML5 and CSS.
+
  ## Testing
- In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
- Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
- For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+  I tested the code using the mark up validation website https://validator.w3.org/ and addressed any errors it picked up.
+  I used the google chrome inspect tool to check the functionality on various devices. 
+  I got friends to test the site on their devices in order to get some honest feedback on the ease of use and to pick up any problems i had over looked.
+  I clicked on every hyperlink to ensure that i arrived at the correct destination.
+  I clicked play on the i videos to make sure they played and that they displayed the correct content.
+  
+Using mobile first design was a great way to ensure that the site was asthetically pleasing across all devices.
+
  1. Contact form:
     1. Go to the "Contact Us" page
     2. Try to submit the empty form and verify that an error message about the required fields appears
@@ -37,54 +57,36 @@ Use this section to provide insight into your UX process, focusing on who this w
  In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
  You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
  If this section grows too long, you may want to split it off into a separate file and link to it from here.
+
  ## Deployment
- This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
- In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
- In addition, if it is not obvious, you should also describe how to run your code locally.
+ When i have made a change to my website i deploy the update to GitHub. This website is simple in nature and so only requires one branch called the master and everything is uploaded there.
+ When i have made a change that i want to upload i type in the terminal:
+ 'git init' 
+ Then add the file i have updated for exaple:
+ 'git add readme.md'
+ Add a note of what has been updated and commit the files you've staged in your local repository:
+ 'git commit -m "updated readme file to be more specific and include UX drawings"'
+ In the terminal add the remote repository url:
+ 'git remote add origin https://github.com/eddiebrett/eddiebrettmate'
+ 'git remote -v'
+ and then finally: 
+ 'git push -u origin master' pushes your local repository to github.
+
+
  ## Credits
  ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+Honest EP link to spotify- https://open.spotify.com/album/7ytgV7ClfdXbbvDhF8W9mJ?si=1U9IUXQaQDiVKUyhy6vGqg
+This and that album link to spotify- https://open.spotify.com/album/4V88ivH6YwYTe1w6q8wKvd?si=uDIBxPA7SJuwe3QFYB2hmA
+Riots music video link to youtube- https://www.youtube.com/watch?v=nqmcgX7WKdo
+Honest music video link to youtube- https://www.youtube.com/watch?v=gPPHRwWlGQM
+Lost boy poetry link to youtube- https://www.youtube.com/watch?v=0tRBmbi65zc
+Dirtywknd documentary link to youtube- https://www.youtube.com/watch?v=NkpMZbQsXAM
+
  ### Media
-- The photos used in this site were obtained from ...
+Photographs of mate taken by BradHPhotos @MirumFilms of which Eddie Brett owns the rights to.
+
  ### Acknowledgements
- - I received inspiration for this project from X
+My design reference points were lifestyle fashions brands such as; adidas and supreme. I also looked at poets, musicians and rappers such as Ratboy, George the poet, Rizzle Kickz, Tyler the creator/ odd future, George Ezra, Mac Demarco and Al the Native to give me a sense of what was happening, what works, what doesn't and how to avoid being a copycat.
 
 
-
-
-
-
-
-
-
-
-Eddie Brett
-
-We are creating a website for the London street poet Eddie Brett. The site wants to be simple, clean and appealing to a 17-28 demographic. He is starting a new project and this website is acting as a transitional piece until more material and information is available. He wants visitors to know who he is, what he has done, what he is doing and how to get in touch. The website should appear professional without being overly formal. It needs to feel inviting, unique and slightly quirky to compliment Eddie’s personallity and work.
-
-From looking at Eddie’s social media activity and artwork i can see that he likes pastel colours, ‘poppin’s’ font and using lowercase text. With this in mind i've included all three things in the site. I've kept layout elements consistent and uniformed throughout the site in order to give each visitor a sense or calm and ease in order to give them a positive quick experience on the site. I've placed a few subtle punk inspired features e.g. typewriter font hover, inverted negative photograph effect on the social hover icons, i've given text white borders to look like labelling and i've put text both to the left and right to give the user a sense of mystery from the norm. Hopefully these little quirks give personallity to the site and give it a unique feel cosidering how simplistic and uniformed it is. I wanted the music page to splatter across the page like a sporadic collage, i have achieved this to some degree however at the moment it looks fairly regimented and i think i'll spend some more time on this in the future to create a bespoke layout.
-
-The music industry is going through a big resergence of DIY artists and so i didnt want to use anything too fancy or complex and have kept everything matter of fact. Only including information that is neccesary. 
-
-Eventually i'll add an online shop to the site aswell as various blogs/ new release information and touring information.
-
-My design reference points were lifestyle fashions brands such as; adidas and supreme. I also looked at poets, musicians and rappers such as George the poet, Rizzle Kickz, Tyler the creator/ odd future, George Ezra, Mac Demarco and Al the Native to give me a sense of what was happening, what works, what doesn't and how to avoid being a copycat.
-
-I've used bootstrap, HTML5, CSS and google fonts within this project.
-
-I have tested it out of different devices with different size requirements and am confident across the board.
-
-
-deployement
-everytime that i make a change on my website i deploy the update to github. I only have one branch on my website called the master so everything is updated there.
-setting github repo turn it on.
-https://eddiebrett.github.io/eddiebrettmate/
-
-test: chrome inspector
-
-ran it through a validator
-
-code indent
+The url is : https://eddiebrett.github.io/eddiebrettmate/

@@ -2,70 +2,40 @@
 
 body {
     background-color: #e4f6f8;
+    font-family: 'Poppins', sans-serif;
+}
 
+.highlighted-text {
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffffff;
+    line-height: 1.3;
 }
 
 /*-----------------navbar-----------*/
 
-#nav {
-    margin: 0;
-    margin-top: -15px;
+.nav-main-logo {
+    font-weight: bold;
+    font-size: 800;
+    
 }
 
-.nav-font {
-    color: #000000;
-
-    padding-top: -10px;
-    font-size: 40px;
+.nav-menu-item {
 }
 
-.nav-font:hover {
+.nav-menu-item:hover {
     font-family: 'Special Elite', cursive;
     color: #000000;
 }
 
 
-#nav li {
-    padding: 0;
-}
-
-
-.menuitem {
-    height: 0;
-    text-align: center;
-    padding: 0;
-}
-
-.menuitem a {
-    width: 100%;
-    text-decoration: none;
-    color: #ffffff;
-    height: 120px;
-
-}
-
-.menuitem a i {
-    padding-top: 22px;
-    display: block;
-    color: #fafafa;
-    font-size: 26px;
-}
-
-.menuitem span {
-    display: block;
-    width: 100%;
-    padding-top: 10px;
-    text-align: center;
-    font-size: 18px;
-    font-weight: 300;
-    letter-spacing: 2px;
-}
-
 .list-inline {
     text-align: center;
 }
 
-/*-------------- photos -----------*/
+
+
+/*------------------- home page ----------------*/
 
 .photo {
     background: url("../images/forest.jpg");
@@ -79,127 +49,14 @@ body {
     margin-top: 30px;
 }
 
-.photo2 {
-    background: url("../images/drinking-tea.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 357px;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-    margin-top: 30px;
-}
-
-.photo3 {
-    background: url("../images/merch.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 357px;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-    margin-top: 30px;
-}
-
-/*------------ fonts ---------------*/
-
-h3 {
-    font-family: 'Cedarville Cursive', cursive;
-    font-size: 24px;
-    margin-top: 50px;
-    margin-bottom: 20px;
-
-}
-
-
-
-.ed-text {
-    color: black;
-
-}
-
-.name {
-    font-family: 'Poppins', sans-serif;
-    font-weight: bold;
-    font-size: 800;
-    font-style: italic;
-
-}
-
-.nav-font {
-    font-family: 'Poppins', sans-serif;
-}
-
-
-.container-up-to {
-    margin-top: -25px;
-    margin-bottom: 80px;
-    text-align: right;
-
-}
-
-.pipeline {
-    font-size: 20px;
-    font-family: 'Poppins', sans-serif;
-    background-color: #ffffff;
-    line-height: 1.3;
-}
-
-.edmessage {
-    background-color: #ffffff;
-    line-height: 1.8;
-    text-align: right;
-    margin-bottom: 10px;
-
-}
-
-/*------------------------- footer ---------------*/
-
-footer {
-    background-color: #333333;
-    color: #fafafa;
-    min-height: 40px;
-    margin: 0;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-
-}
-
-
-.social-links {
-    padding-top: 10px;
-    position: relative;
-
-}
-
-.social-links li a i {
-    width: 32px;
-    height: 32px;
-    padding: 12px 0;
-    border-radius: 50%;
-    font-size: 13px;
-    line-height: 7px;
-    text-align: center;
-    color: #fafafa;
-    background-color: #6f6f6f;
-    transition: all 0.10s ease-in-out;
-    -moz-transition: all 0.10s ease-in-out;
-    -webkit-transition: all 0.10s ease-in-out;
-    -o-transition: all 0.10s ease-in-out;
-}
-
-.social-links li a i:hover {
-    filter: invert(100%);
-
-}
-
-#footer-details {
-    margin: 10;
-}
+ .home-page-text {
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+        padding-bottom: 80px;
+    }
+    
 
 
 /*---------music page-------*/
@@ -213,11 +70,9 @@ footer {
 }
 
 
-
 .content {
     padding-top: 80px;
     padding-bottom: 80px;
-
 }
 
 img {
@@ -225,17 +80,95 @@ img {
     height: auto;
 }
 
+.youtube-clicker {
+    background-color: red;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    height: 50px;
+    text-align: center;
+}
+
+.youtube-clicker:hover {
+    background-color: white;
+    color: red;
+}
+
+.youtube-clicker .h1 {
+    font-size: 10px;
+}
+
+@media (min-width:992px) {
+    .youtube-clicker {
+        font-size: 2px;
+    }
+}
 
 
 
-/*-----------contact page -------------*/
 
-form{
+/*------------------- merch page -----------------*/
+
+.photo3 {
+    background: url("../images/mate-eddie-brett-merch-page.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 357px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    margin-top: 30px;
+}
+
+
+.merch-text {
+    margin-bottom: 80px;
+}
+
+/*------------ fonts ---------------*/
+
+
+
+
+.container-up-to {
+    margin-top: -25px;
+    margin-bottom: 80px;
+    text-align: right;
+
+}
+
+
+
+
+
+/*-----------collab page -------------*/
+
+.edmessage {
+    background-color: #ffffff;
+    line-height: 1.8;
+    text-align: right;
+    margin-bottom: 10px;
+
+}
+
+.photo2 {
+    background: url("../images/mate-eddie-brett-drinking-tea.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 357px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    margin-top: 30px;
+}
+
+form {
     padding-bottom: 0;
     margin-top: 10px;
     margin-bottom: 0;
     font-family: 'Poppins', sans-serif;
-    
+
 }
 
 .center-form {
@@ -264,11 +197,7 @@ form{
     padding-bottom: 0px;
 }
 
-/*------------- merch page -----------------*/
 
-.merch-text {
-    margin-bottom: 80px;
-}
 
 /*------------- media queries--------*/
 
@@ -303,22 +232,7 @@ form{
         margin-bottom: 0;
     }
 
-    .container-bio {
-        padding-right: 15px;
-        padding-left: 15px;
-        margin-right: auto;
-        margin-left: auto;
-        padding-bottom: 80px;
-    }
-
-    .container-collab {
-        padding-right: 15px;
-        padding-left: 15px;
-        margin-right: auto;
-        margin-left: auto;
-        padding-bottom: 10px;
-    }
-
+    
     .hide-video {
         display: none;
     }
@@ -363,3 +277,48 @@ form{
 
     }
 }
+
+
+/*------------------------- footer ---------------*/
+
+footer {
+    background-color: #333333;
+    color: #fafafa;
+    min-height: 40px;
+    margin: 0;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+
+}
+
+
+.social-links {
+    padding-top: 10px;
+    position: relative;
+
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background-color: #6f6f6f;
+    transition: all 0.10s ease-in-out;
+    -moz-transition: all 0.10s ease-in-out;
+    -webkit-transition: all 0.10s ease-in-out;
+    -o-transition: all 0.10s ease-in-out;
+}
+
+.social-links li a i:hover {
+    filter: invert(100%);
+
+}
+
+
