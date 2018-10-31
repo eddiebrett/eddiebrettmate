@@ -1,36 +1,48 @@
-/*---------- generic ------------*/
+/*-------------------- generic -------------------------------*/
 
 body {
     background-color: #e4f6f8;
     font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: black;
 }
 
 .highlighted-text {
-    font-size: 20px;
+    font-size: 19px;
     font-family: 'Poppins', sans-serif;
     background-color: #ffffff;
     line-height: 1.3;
 }
 
-/*-----------------navbar-----------*/
+.bottom-page-paragraph {
+    margin-bottom: 70px;
+}
+
+/*---------------------------navbar---------------------------*/
 
 .nav-main-logo {
-    font-weight: bold;
-    font-size: 800;
-    
+
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 0;
 }
 
-.nav-menu-item {
+
+.nav-menu-item a {
+    color: #000;
 }
 
-.nav-menu-item:hover {
+.nav-menu-item a:hover {
     font-family: 'Special Elite', cursive;
-    color: #000000;
+    text-decoration: none;
+    color: #000;
 }
 
 
 .list-inline {
     text-align: center;
+    font-size: 20px;
 }
 
 
@@ -38,7 +50,7 @@ body {
 /*------------------- home page ----------------*/
 
 .photo {
-    background: url("../images/forest.jpg");
+    background: url("../images/mate-eddie-brett-forest-guitar.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -49,29 +61,11 @@ body {
     margin-top: 30px;
 }
 
- .home-page-text {
-        padding-right: 15px;
-        padding-left: 15px;
-        margin-right: auto;
-        margin-left: auto;
-        padding-bottom: 80px;
-    }
-    
 
-
-/*---------music page-------*/
-
-.container {
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-    padding-bottom: 20px;
-}
-
+/*-----------------------------music page---------------------*/
 
 .content {
-    padding-top: 80px;
+    padding-top: 35px;
     padding-bottom: 80px;
 }
 
@@ -81,30 +75,27 @@ img {
 }
 
 .youtube-clicker {
-    background-color: red;
-    color: white;
+
+    background-color: white;
+    color: red;
     font-family: 'Poppins', sans-serif;
-    height: 50px;
+    font-size: 25px;
     text-align: center;
+    margin-top: 10px;
 }
 
 .youtube-clicker:hover {
-    background-color: white;
-    color: red;
+    background-color: red;
+    color: white;
+
 }
 
-.youtube-clicker .h1 {
-    font-size: 10px;
+a {
+    text-decoration: none;
 }
-
-@media (min-width:992px) {
-    .youtube-clicker {
-        font-size: 2px;
-    }
+a:hover {
+    text-decoration: none;
 }
-
-
-
 
 /*------------------- merch page -----------------*/
 
@@ -121,35 +112,7 @@ img {
 }
 
 
-.merch-text {
-    margin-bottom: 80px;
-}
-
-/*------------ fonts ---------------*/
-
-
-
-
-.container-up-to {
-    margin-top: -25px;
-    margin-bottom: 80px;
-    text-align: right;
-
-}
-
-
-
-
-
-/*-----------collab page -------------*/
-
-.edmessage {
-    background-color: #ffffff;
-    line-height: 1.8;
-    text-align: right;
-    margin-bottom: 10px;
-
-}
+/*--------------------contact page ---------------------------*/
 
 .photo2 {
     background: url("../images/mate-eddie-brett-drinking-tea.jpg");
@@ -163,16 +126,9 @@ img {
     margin-top: 30px;
 }
 
-form {
-    padding-bottom: 0;
-    margin-top: 10px;
-    margin-bottom: 0;
-    font-family: 'Poppins', sans-serif;
 
-}
 
 .center-form {
-    padding-bottom: 60px;
     text-align: center;
 
 }
@@ -183,6 +139,8 @@ form {
     margin-top: 10px;
     margin-bottom: 90px;
     border: 1px solid #3d3d3d;
+    
+
 }
 
 .btn:hover {
@@ -190,49 +148,34 @@ form {
 }
 
 
-.text-center {
-    text-align: justify;
-    margin-top: 30px;
-    margin-bottom: 0px;
-    padding-bottom: 0px;
-}
 
+/*------------------------------- media queries-----------------------------*/
 
-
-/*------------- media queries--------*/
+/*---------------(desktop) 992px and over -------------------*/
 
 @media (min-width:992px) {
 
-
-    .center-form {
-        padding-top: 30px;
-        min-height: 240px;
-        margin: 0 auto;
-        max-width: 50%;
-
-    }
 
     .social-links {
         text-align: right;
         margin-right: 30px;
     }
+    
+    /*----- text box in contact page-----*/ 
+textarea {
+    width: 80%;
+}
 }
 
+
+/*--------------------- 991px and under (tablet and mobile) -------------*/
 
 @media only screen and (max-width: 991px) {
 
     .social-links {
         padding-top: 10px;
-
-
     }
 
-    ul {
-        margin-top: 0;
-        margin-bottom: 0;
-    }
-
-    
     .hide-video {
         display: none;
     }
@@ -240,14 +183,10 @@ form {
     img {
         width: 100%;
         height: auto;
-
-
     }
 
     iframe {
         width: 100%;
-
-
     }
 
 
@@ -261,8 +200,10 @@ form {
         padding-bottom: 10px;
     }
 
-
 }
+
+
+/*--------------- device bigger than 1024 under 1106 (will hide on tablet) ------------------*/
 
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1106px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .hide-video {
@@ -282,12 +223,10 @@ form {
 /*------------------------- footer ---------------*/
 
 footer {
+    margin-top: 20px;
     background-color: #333333;
     color: #fafafa;
-    min-height: 40px;
-    margin: 0;
     position: fixed;
-    left: 0;
     bottom: 0;
     width: 100%;
 
@@ -320,5 +259,3 @@ footer {
     filter: invert(100%);
 
 }
-
-
