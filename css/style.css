@@ -127,13 +127,18 @@ a:hover {
     margin-top: 30px;
 }
 
-
-
 .center-form {
     text-align: center;
 
 }
 
+input[type="text"]{
+    width: 50%;
+}
+
+textarea{
+    width: 100%;
+}
 
 .btn {
     background-color: #d3d3d3;
@@ -162,10 +167,7 @@ a:hover {
         margin-right: 30px;
     }
     
-    /*----- text box in contact page-----*/ 
-textarea {
-    width: 80%;
-}
+
 }
 
 
