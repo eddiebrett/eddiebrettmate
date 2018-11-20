@@ -55,9 +55,6 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 357px;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
     margin-top: 30px;
 }
 
@@ -106,9 +103,6 @@ a:hover {
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 357px;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
     margin-top: 30px;
 }
 
@@ -121,9 +115,6 @@ a:hover {
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 357px;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
     margin-top: 30px;
 }
 
