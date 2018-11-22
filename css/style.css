@@ -1,5 +1,9 @@
 /*-------------------- generic -------------------------------*/
 
+* {
+    cursor: url("../images/pigeoncurs.png"), auto;
+}
+
 body {
     background-color: #e4f6f8;
     font-family: 'Poppins', sans-serif;
@@ -23,26 +27,29 @@ body {
 .nav-main-logo {
 
     font-weight: 600;
+    margin-left: 0;
     margin-top: 5px;
     margin-bottom: 5px;
-    margin-left: 0;
 }
 
 
 .nav-menu-item a {
     color: #000;
+    padding: 2px;
 }
 
 .nav-menu-item a:hover {
     font-family: 'Special Elite', cursive;
     text-decoration: none;
     color: #000;
+    font-size: 25px;
 }
 
 
 .list-inline {
     text-align: center;
-    font-size: 20px;
+    font-size: 22px;
+
 }
 
 
@@ -79,7 +86,7 @@ img {
     font-size: 25px;
     text-align: center;
     margin-top: 10px;
-    
+
 }
 
 .youtube-clicker:hover {
@@ -91,6 +98,7 @@ img {
 a {
     text-decoration: none;
 }
+
 a:hover {
     text-decoration: none;
 }
@@ -123,11 +131,11 @@ a:hover {
 
 }
 
-input[type="text"]{
+input[type="text"] {
     width: 50%;
 }
 
-textarea{
+textarea {
     width: 100%;
 }
 
@@ -136,7 +144,7 @@ textarea{
     margin-top: 10px;
     margin-bottom: 90px;
     border: 1px solid #3d3d3d;
-    
+
 
 }
 
@@ -157,7 +165,7 @@ textarea{
         text-align: right;
         margin-right: 30px;
     }
-    
+
 
 }
 
