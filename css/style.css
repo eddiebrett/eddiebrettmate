@@ -103,6 +103,17 @@ a:hover {
     text-decoration: none;
 }
 
+
+/*------------------- games page -----------------*/
+
+.game-logo {
+    width: 280px;
+    height: 280px;
+}
+
+.game-logo:hover {
+    filter: invert(100%);
+}
 /*------------------- merch page -----------------*/
 
 .photo3 {
@@ -201,8 +212,14 @@ textarea {
         padding-left: 15px;
         padding-bottom: 10px;
     }
+    
+    .game-logo {
+    width: 50%;
+    height: 50%;
+}
 
 }
+
 
 
 /*--------------- device bigger than 1024 under 1106 (will hide on tablet) ------------------*/
